@@ -1,6 +1,6 @@
-# Khazix Skills
+# XYZ Skills
 
-数字生命卡兹克开源的 AI Skills 合集。
+数字生命XYZ开源的 AI Skills 合集。
 
 这里是我自己在用的、经过长期打磨的 Skills，现在决定把它们完整地、一字不改地开源出来。
 
@@ -14,28 +14,27 @@ Skill 的设计理念是**可组合、可移植、按需加载**。多个 Skill 
 
 | Skill | 说明 |
 |-------|------|
-| [**kaizike-writer**](./kaizike-writer/) | 卡兹克公众号长文写作 Skill，包含完整的写作风格规则、四层自检体系、内容方法论和风格示例库 |
+| [**xyz-writer**](./khazix-writer/) | XYZ公众号长文写作 Skill，包含完整的写作风格规则、四层自检体系、内容方法论和风格示例库 |
 
 ## 安装
 
 ### 通过 Agent 安装
 
-在 Claude Code、Codex、OpenClaw 等支持 Skill 的 Agent 中，直接对话：
+在 Codex、OpenClaw 等支持 Skill 的 Agent 中，直接对话：
 
 ```
-安装这个 skill：https://github.com/KKKKhazix/khazix-skills
+安装这个 skill：https://github.com/KKKXYZ/xyz-skills
 ```
 
 ### 手动安装
 
-1. 在本仓库的 [Releases](https://github.com/KKKKhazix/khazix-skills/releases) 页面下载对应 Skill 的 `.skill` 安装包
+1. 在本仓库的 [Releases](https://github.com/KKKXYZ/xyz-skills/releases) 页面下载对应 Skill 的 `.skill` 安装包
 2. 将 `.skill` 文件拖动到对应工具的 Skills 目录下
 
 各工具的 Skills 安装路径：
 
 | 工具 | 路径 |
 |------|------|
-| Claude Code | `~/.claude/skills/` |
 | OpenClaw | `~/.openclaw/skills/` |
 | Codex | `~/.agents/skills/` |
 
